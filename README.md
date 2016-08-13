@@ -16,7 +16,9 @@ public registry change objects and writes objects like:
 You probably want something like:
 
 ```javascript
+var ChangesStream = require('changes-stream')
 var LicenseDataFollower = require('license-data-follower')
+
 new ChangesStream({
   db: 'https://replicate.npmjs.com',
   include_docs: true
