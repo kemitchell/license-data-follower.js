@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var ChangesStream = require('changes-stream')
 var Transform = require('./')
 var http = require('http')

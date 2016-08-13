@@ -5,6 +5,7 @@
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "repository": "kemitchell/license-data-follower.js",
   "license": "MIT",
+  "bin": "server.js",
   "dependencies": {
     "changes-stream": "^1.1.0",
     "level": "^1.4.0",
