@@ -13,6 +13,20 @@ public registry change objects and writes objects like:
 }
 ```
 
+You probably want something like:
+
+```javascript
+var LicenseDataFollower = require('license-data-follower')
+new ChangesStream({
+  db: 'https://replicate.npmjs.com',
+  include_docs: true
+})
+.pipe(new LicenseDataFollower())
+.on('data', function (data) {
+  // ...
+})
+```
+
 # HTTP Server
 
 The package installs a `license-data-follower` bin script that follows
