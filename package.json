@@ -1,10 +1,8 @@
 {
   "name": "license-data-follower",
-  "version": "0.0.0",
   "description": "extract license infomration from npm reigstry updates",
+  "version": "0.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
-  "repository": "kemitchell/license-data-follower.js",
-  "license": "MIT",
   "bin": "server.js",
   "dependencies": {
     "changes-stream": "^1.1.0",
@@ -12,5 +10,7 @@
     "lexicographic-integer": "^1.1.0",
     "pino": "^2.8.1",
     "readable-stream": "^2.1.4"
-  }
+  },
+  "license": "MIT",
+  "repository": "kemitchell/license-data-follower.js"
 }
