@@ -1,6 +1,6 @@
 {
   "name": "license-data-follower",
-  "description": "extract license infomration from npm reigstry updates",
+  "description": "extract license information from npm registry updates",
   "version": "1.0.0",
   "author": "Kyle E. Mitchell <kyle@kemitchell.com> (https://kemitchell.com/)",
   "bin": "server.js",
