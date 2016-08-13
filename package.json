@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "changes-stream": "^1.1.0",
+    "level": "^1.4.0",
+    "pino": "^2.8.1",
+    "readable-stream": "^2.1.4"
+  },
+  "devDependencies": {
+    "lexicographic-integer": "^1.1.0"
+  }
+}
